@@ -155,17 +155,17 @@ python main.py generate --model_path checkpoints/generator_epoch_100.pth
 
 Below are examples of generated images at different stages of training:
 
-**Epoch 1**
-![Epoch 1](results/sample_epoch_001.png)
+**Epoch 10**
+![Epoch 1](results/epoch_010.png)
 
 **Epoch 50**
-![Epoch 50](results/sample_epoch_050.png)
+![Epoch 50](results/epoch_050-2.png)
 
 **Epoch 100**
-![Epoch 100](results/sample_epoch_100.png)
+![Epoch 100](results/epoch_100-2.png)
 
 **Epoch 170**
-![Epoch 170](results/sample_epoch_200.png)
+![Epoch 170](results/epoch_170.png)
 
 
 
