@@ -2,6 +2,11 @@
 
 This repository contains a Generative Adversarial Network (GAN) implemented in PyTorch for generating images similar to the Fashion-MNIST dataset. It provides a flexible command-line interface for training and generating fashion-like images.
 
+Below are some examples of how the generated samples look like post training
+
+**Generated Samples**
+![Final Output](results/generated_samples.png)
+
 ---
 
 ## Project Structure
@@ -75,7 +80,7 @@ python main.py train
 
 | Argument         | Type  | Default    | Description                                                                 |
 | ---------------- | ----- | ---------- | --------------------------------------------------------------------------- |
-| `--epochs`       | int   | 200        | Number of training epochs                                                   |
+| `--epochs`       | int   | 170        | Number of training epochs                                                   |
 | `--batch_size`   | int   | 128        | Batch size for training                                                     |
 | `--mode`         | str   | "one\_one" | Training mode. Choices: `one_one`, `five_gen_one_disc`, `five_disc_one_gen` |
 | `--lr`           | float | 0.000086   | Learning rate for Adam optimizer                                            |
@@ -145,6 +150,24 @@ python main.py generate --model_path checkpoints/generator_epoch_100.pth
 * Activations: LeakyReLU (hidden layers), Sigmoid (output layer)
 
 ---
+
+## Generated Samples Over Epochs
+
+Below are examples of generated images at different stages of training:
+
+**Epoch 1**
+![Epoch 1](results/sample_epoch_001.png)
+
+**Epoch 50**
+![Epoch 50](results/sample_epoch_050.png)
+
+**Epoch 100**
+![Epoch 100](results/sample_epoch_100.png)
+
+**Epoch 170**
+![Epoch 170](results/sample_epoch_200.png)
+
+
 
 ## Dependencies
 
