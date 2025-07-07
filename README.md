@@ -4,7 +4,6 @@ This repository contains a Generative Adversarial Network (GAN) implemented in P
 
 Below are some examples of how the generated samples look like post training
 
-**Generated Samples**
 ![Final Output](results/generated_samples.png)
 
 ---
