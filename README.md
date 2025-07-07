@@ -35,7 +35,7 @@ fashion-mnist-gan/
 
 ```bash
 git clone https://github.com/Indiandude123/GAN_on_FashionMNIST.git 
-cd fashion-mnist-gan
+cd GAN_on_FashionMNIST
 ```
 
 ### 2. Prepare the Dataset
